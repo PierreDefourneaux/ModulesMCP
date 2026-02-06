@@ -1,0 +1,12 @@
+[project]
+name = "modules-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.25.0",
+    "mistralai>=1.10.0",
+    "ollama>=0.6.1",
+    "python-dotenv>=1.2.1",
+]
